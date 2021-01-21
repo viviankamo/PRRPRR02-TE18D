@@ -17,7 +17,8 @@ namespace SOLID_Labb
             {
                 if (animal is Dog dog)
                 {
-                    dog.TransferOwnership("Niklas");
+                    animal._owner=("Niklas");
+                    animal.Owner();
                 }
 
                 animal.Eat();
